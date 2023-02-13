@@ -5,6 +5,10 @@
 #spring.datasource.driver-class-name=com.mysql.jdbc.Driver
 
 spring:
+  thymeleaf:
+  prefix: classpath:/templates/
+  suffix: .html
+
   datasource:
     url: jdbc:mysql://localhost:3306/jpashop?serverTimezone=UTC&characterEncoding=UTF-8
     username: root
@@ -25,3 +29,4 @@ logging:
   level:
     org.hibernate.SQL: debug
     org.hibernate.type: trace
+

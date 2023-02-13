@@ -1,4 +1,4 @@
-package jpabook.jpashop.domain.constract;
+package jpabook.jpashop.domain;
 
 public enum OrderStatus {
     ORDER,
